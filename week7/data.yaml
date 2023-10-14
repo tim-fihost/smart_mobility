@@ -1,0 +1,6 @@
+# Example of MoveAction definition (move_action.action)
+# This file defines the structure of the action.
+
+float32 distance     # Desired distance to move (positive for forward, negative for backward)
+---
+bool success         # True if the action was successful, false otherwise
